@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+html,
+body,
+.page-content {
+    height: 100%;
+}
+
 .header{
     position: relative;
     background-color: rgba(248, 248, 248, 1);
@@ -15,7 +23,7 @@
     top: 0;
     left: 0;
     
-    width: 142px;
+    width: 149px;
     height: 47px;
 }
 .header p{
@@ -41,11 +49,11 @@
     
 }
 .icon{
-    width: 130px;
-    height: 36px;
-    padding-top: 20px;
+    width: 146px;
+    height: 10px;
+    padding-top: 16px;
     margin-right: 5px;
-    margin: 5px;
+    margin: 4px;
 }
 
 .my-bell-icon {
@@ -91,10 +99,10 @@
 .para{
     display: flex;
     position: absolute;
-    top: 63px;
-    left: 1100px;
+    top: 65px;
+    left: 1083px;
     color: white;
-    padding: 6px;
+    padding: 2px;
 }
 .navbar{
     position: absolute;
@@ -148,6 +156,15 @@
     padding-top: 5px;
     
 }  */
+.btn-bck{
+    font-size: 1px;
+    background-color: #0092C2;
+    color: white;
+    border-radius: 20px;
+    height: 36px;
+    width: 130px;
+    border: none;
+}
  .btn{
     /* position: relative; */
     /* margin-top: 15px; */
@@ -170,25 +187,131 @@
 
 .sidebar {
     
-    
-    width: 300px;
+    background-color: rgba(248, 248, 248, 1);
+    width: 214px;
     height: 100%;
     padding-left: 64px;
 }
 
 .sidebar-item {
     display: flex;
-    flex-direction: column;
-    margin-top: 70px;
-    padding: 12px;
+    /* flex-direction: column; */
+    margin-left: -15px;
+    margin-top: 23px;
+    padding: 5px;
 }
 
+
 .inner-header {
+    font-size: 12px;
 
     display: flex;
     justify-content: space-between;
-    padding: 45px 8px 8px;
+    padding: 42px 16px 10px;
+    
 }
 .content {
     width: 100%;
+}
+.content-calander{
+    padding-top: 5px;
+    display: flex;
+}
+.calander-btn .cbtn{
+    margin-left: 5px;
+ width:125px;
+height: 40px;
+    color: #0092c2;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    border-radius: 23px;
+}
+.drop-down{
+    padding-top: 12px;
+    padding-left: 5px;
+    display: flex;
+}
+
+
+.drop-down .list{
+    padding-left: 2px;
+    font-size: 13px;
+    width: 72px;
+}
+.drop-down .list-para{
+    font-size: 15px;
+    padding-left: 8px;
+}
+.drop-down .list-guest{
+    font-size: 15px;
+    padding-left: 3px;
+    color: #0092C2;
+}
+.drop-down .list-btn{
+    padding-left: 634px;
+    font-size: 20px;
+}
+.hide-clms p{
+    border: 1px solid ;
+    border-color: #0092c2;
+    border-radius: 22px;
+    padding: 5px;
+    margin-left: 7px;
+}
+.main-table{
+    margin: 15px 5px;
+    width: 98%;
+    border-collapse: collapse; 
+    font-size: 12px;
+   
+
+}
+.main-table thead tr th{
+    vertical-align: bottom;
+    /* text-align: left; */
+}
+th, td {
+    /* width: 100px; */
+    text-align: left;
+    min-width: 110px;
+    max-width: 200px;
+}
+.table-header{
+    background-color:rgba(248, 248, 248, 1);
+    width: 100%;
+}
+.table-header-input{
+    margin-top: 5px;
+    margin-bottom: 19px;
+    padding-bottom: maa;
+    padding: 4px;
+    width: 61%;
+}
+/* .table-header-name{
+    vertical-align: bottom;
+    padding-top: 29px;
+    padding-left: 5px;
+} */
+
+.table-header-title {
+    
+    vertical-align: bottom;
+    
+    /*
+    display: flex;
+    align-items: end; */
+}
+.t-logo {
+    margin-left: 16px;
+    width: 37px;
+    height: 38px;
+}
+.b-heading{
+    width: 28px;
+}
+.t-text{
+    width: 10px;
+}
+.td{
+    border: 1px;
 }

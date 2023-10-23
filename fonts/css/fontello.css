@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?5278331');
-  src: url('../font/fontello.eot?5278331#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?5278331') format('woff2'),
-       url('../font/fontello.woff?5278331') format('woff'),
-       url('../font/fontello.ttf?5278331') format('truetype'),
-       url('../font/fontello.svg?5278331#fontello') format('svg');
+  src: url('../font/fontello.eot?70752524');
+  src: url('../font/fontello.eot?70752524#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?70752524') format('woff2'),
+       url('../font/fontello.woff?70752524') format('woff'),
+       url('../font/fontello.ttf?70752524') format('truetype'),
+       url('../font/fontello.svg?70752524#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?5278331#fontello') format('svg');
+    src: url('../font/fontello.svg?70752524#fontello') format('svg');
   }
 }
 */
@@ -66,8 +66,19 @@
 .icon-wrench:before { content: '\e809'; } /* '' */
 .icon-group:before { content: '\e80a'; } /* '' */
 .icon-calendar:before { content: '\e80b'; } /* '' */
+.icon-mail:before { content: '\e80c'; } /* '' */
+.icon-cancel-circled-outline:before { content: '\e80d'; } /* '' */
+.icon-download:before { content: '\e80e'; } /* '' */
+.icon-cog-outline:before { content: '\e80f'; } /* '' */
 .icon-credit-card:before { content: '\e812'; } /* '' */
+.icon-level-up:before { content: '\f148'; } /* '' */
+.icon-level-down:before { content: '\f149'; } /* '' */
+.icon-link-ext-alt:before { content: '\f14c'; } /* '' */
 .icon-spoon:before { content: '\f1b1'; } /* '' */
+.icon-file-pdf:before { content: '\f1c1'; } /* '' */
+.icon-file-excel:before { content: '\f1c3'; } /* '' */
 .icon-user-secret:before { content: '\f21b'; } /* '' */
+.icon-user-times:before { content: '\f235'; } /* '' */
 .icon-product-hunt:before { content: '\f288'; } /* '' */
 .icon-address-card-o:before { content: '\f2bc'; } /* '' */
+.icon-google-circles:before { content: '\f351'; } /* '' */
