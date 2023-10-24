@@ -12,32 +12,25 @@ body,
 }
 
 .header{
-    position: relative;
+
     background-color: rgba(248, 248, 248, 1);
     display: flex;
-    /* width: 1920px; */
-    height: 58px;
+    justify-content: space-between;
 }
 .header img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    width: 149px;
-    height: 47px;
+    /* margin-left: 7px; */
+    width: 6rem;
 }
 .header p{
-    padding-top: 20px;
-    font-size: 13px;
-    font-family: Roboto;
-    /* width: 283px; */
-    width: 100%;
-    height: 15px;
-    top: 20px;
-    /* left: 820px; */
-    /* text-align: left; */
-    text-align: center;
+    padding-left: 6rem;
+    padding-top: 0.45rem;
+    font-size: 0.7rem;
+    
+    
+    
+
 }
+
 .main-header-icon{
     color: rgba(20, 146, 223, 1);
 
@@ -45,74 +38,61 @@ body,
 .header i{
     /* color: rgba(20, 146, 223, 1); */
     width: 11px;
-    height: 14px;
+    
     
 }
 .icon{
+    font-size: 0.6rem;
     width: 146px;
-    height: 10px;
-    padding-top: 16px;
+    padding-top: 0.45rem;
     margin-right: 5px;
-    margin: 4px;
-}
+    margin: 0.1rem;
+    padding-left: 2.7rem;}
 
-.my-bell-icon {
-   background-color: white;
+
+ .my-bell-icon {
+    font-size: 9px;
+    background-color: white;
     padding: 6px;
-    height: 20px;
+    height: 28px;
     color: #333333;
     top: 24px;
     left: 1785px;
     border: 1px solid #333333;
-    border-radius: 50%;
-}
+    border-radius: 50%;} 
 .breadcrums-container{
     display: flex;
     width: 100%;
-    height: 40px;
-    top: 63px;
-    left: 40px;
+    height: 3rem;
     background-color: #474540;
 }
 .breadcrums-container ul{
-    position: absolute;
-    left: 47px;
-    padding: 5px;
+    padding-top: 1rem;
+    padding-left: 2.3rem;
+    padding: 0.rem;
     display: flex;
     color: rgba(241, 241, 241, 1);
-    font-size: 13px;
-    /* width: 309px;
-    height: 15px; */
+    font-size: 0.7rem;
     text-decoration: none;
-    list-style: none;
-}
+    list-style: none;}
 .breadcrums-container li{
 
-    top: 75px;
-    left: 61px;
-    text-align: left;
-    height: 15px;
     letter-spacing: 0.13px;
-    padding: 6px;
-    margin-left: 10px;
+    padding: 0.1rem;
+    margin-left: 0.9rem;
 }
 .para{
+    font-size: 0.7rem;
+    padding-top: 1.1rem;
+    padding-left: 47rem;
     display: flex;
-    position: absolute;
-    top: 65px;
-    left: 1083px;
-    color: white;
-    padding: 2px;
-}
+    
+    color: white}
 .navbar{
     position: absolute;
-    
     display: block;
-    width: 40px;
-    height: 706px;
+    width: 2.5rem;
     background-color: #333333;
-    top: 59px;
-    left: 0px;
 }
 .navbar li{
     width: 40px;
@@ -157,26 +137,26 @@ body,
     
 }  */
 .btn-bck{
-    font-size: 1px;
+    font-size: 11px;
     background-color: #0092C2;
     color: white;
     border-radius: 20px;
-    height: 36px;
+    height: 34px;
     width: 130px;
     border: none;
 }
  .btn{
-    /* position: relative; */
-    /* margin-top: 15px; */
+    position: relative;
     background-color: #0092C2;
+   
     color: white;
     border-radius: 20px;
-    height: 36px;
-    width: 130px;
-    /* left: 650px; */
+    height: 31px;
+    width: 107px;
+
     border: none;
-    /* border-color: #0092C2; */
 }
+
 .heading{
     font-size: 15px;
     left: 69px;
@@ -189,22 +169,22 @@ body,
     
     background-color: rgba(248, 248, 248, 1);
     width: 214px;
-    height: 100%;
+    height: 108%;
     padding-left: 64px;
 }
 
 .sidebar-item {
     display: flex;
     /* flex-direction: column; */
-    margin-left: -15px;
-    margin-top: 23px;
-    padding: 5px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 3px;
 }
 
 
 .inner-header {
-    font-size: 12px;
-
+    margin-top: -23px;
+    font-size: 8px;
     display: flex;
     justify-content: space-between;
     padding: 42px 16px 10px;
@@ -239,11 +219,11 @@ height: 40px;
     width: 72px;
 }
 .drop-down .list-para{
-    font-size: 15px;
+    font-size: 10px;
     padding-left: 8px;
 }
 .drop-down .list-guest{
-    font-size: 15px;
+    font-size: 10px;
     padding-left: 3px;
     color: #0092C2;
 }
@@ -312,6 +292,48 @@ th, td {
 .t-text{
     width: 10px;
 }
-.td{
-    border: 1px;
+.t-btn{
+    background-color: #FFF6AB;
+    color: black;
+    border-radius: 20px;
+    height: 36px;
+    width: 130px;
+    /* left: 650px; */
+    border: none;
+    /* border-color: #0092C2; */
 }
+.t-btn2{
+    background-color: #E6E6E6;
+    color: black;
+    border-radius: 20px;
+    height: 36px;
+    width: 130px;
+    /* left: 650px; */
+    border: none;
+    /* border-color: #0092C2; */
+}
+.t-btn3{
+    background-color: #99CC66;
+    color: black;
+    border-radius: 20px;
+    height: 36px;
+    width: 130px;
+    /* left: 650px; */
+    border: none;
+    /* border-color: #0092C2; */
+    
+}
+.main-table tr{
+    padding: 10px;
+}
+.a-para{
+    font-size: 11px;
+    padding-left: 17px;
+    padding-top: 33px
+}
+.main-footer{
+    background-color: green;
+    width: 100%;
+    /* height: ; */
+}
+
