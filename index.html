@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,6 @@
       <div class="logo">
         <img src="images/yourlogo..png" />
       </div>
-        
 
       <div class="location">
         <p>
@@ -27,27 +26,23 @@
         </p>
       </div>
 
-        <div class="header-btn">
-          <i class="si-icon si-notifications_new my-bell-icon"></i>
-          <i class="si-icon si-time-location my-bell-icon"></i>
-          <!-- <i class="si-icon icon-universal-access my-bell-icon"></i> -->
-          
-          <img src="images/table logo.jpg"  class="img">
-    
-          
-        </div>
-      
+      <div class="header-btn">
+        <i class="si-icon si-notifications_new my-bell-icon"></i>
+        <i class="si-icon si-time-location my-bell-icon"></i>
+        <!-- <i class="si-icon icon-universal-access my-bell-icon"></i> -->
+
+        <img src="images/table logo.jpg" class="img" />
+      </div>
     </header>
 
     <div class="breadcrums-container">
       <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">Guests Access Management</a></li>
+        <li><a href="">Guest Access Management</a></li>
         <li><a href="">Guests History</a></li>
       </ul>
       <p class="date-time">Wed,17 May,2022 03:18 PM-(PKT)</p>
     </div>
-    <div class="heading"></div>
     <nav class="navbar">
       <ul class="action-bar">
         <li><i class="si-icon si-home-2" style="cursor: pointer"></i></li>
@@ -68,8 +63,9 @@
           <i class="si-icon si-parking_management" style="cursor: pointer"></i>
         </li>
         <li><i class="si-icon si-survey" style="cursor: pointer"></i></li>
-        <li><i class="si-icon si-admin_outline
-          " style="cursor: pointer"></i></li>
+        <li>
+          <i class="si-icon si-admin_outline" style="cursor: pointer"></i>
+        </li>
         <li>
           <i class="si-icon si-pencil" style="cursor: pointer"></i>
         </li>
@@ -78,7 +74,9 @@
           <i class="si-icon icon-credit-card" style="cursor: pointer"></i>
         </li>
         <li><i class="si-icon si-company" style="cursor: pointer"></i></li>
-        <li><i class="si-icon si-connect_outline" style="cursor: pointer"></i></li>
+        <li>
+          <i class="si-icon si-connect_outline" style="cursor: pointer"></i>
+        </li>
         <li><i class="si-icon si-events" style="cursor: pointer"></i></li>
         <li><i class="si-icon icon-home" style="cursor: pointer"></i></li>
         <li><i class="si-icon si-booking" style="cursor: pointer"></i></li>
@@ -86,78 +84,84 @@
     </nav>
 
     <div class="page-content">
-      <div class="sidebar">
+      <nav class="sidebar">
         <div class="sidebar-item2">
-          <div class="sidebar-item-icon">
-            <!-- <i class="si-icon icon-calendar"></i> -->
-          </div>
           <div>Back to Dashboard</div>
         </div>
         <div class="sidebar-item-title">
           <div class="sidebar-item-icon">
             <i class="si-icon si-visitor"></i>
           </div>
-          Guest Access<br> Management
+          <h3>
+            Guest Access<br />
+            Management
+          </h3>
         </div>
-
-        <div class="sidebar-item">
-          <div class="sidebar-item-icon">
-            <i class="si-icon si-past_visitors"></i>
-          </div>
-          <div class="sidebar-item-name">Past Visits</div>
-        </div>
-        <div class="sidebar-item">
-          <div class="sidebar-item-icon">
-            <i class="si-icon si-today"></i>
-          </div>
-          <div class="sidebar-item-name">Today</div>
-        </div>
-        <div class="sidebar-item">
-          <div class="sidebar-item-icon">
-            <i class="si-icon si-future_visitors"></i>
-          </div>
-          <div class="sidebar-item-name">Future visits</div>
-        </div>
-        <div class="sidebar-item">
-          <div class="sidebar-item-icon">
-            <i class="si-icon si-staff"></i>
-          </div>
-          <div class="sidebar-item-name">Guests</div>
-        </div>
-      </div>
+        <ul class="sidebar-item">
+          <li>
+            <a href="" class="active">
+              <i class="si-icon si-past_visitors"></i><span>Past Visits</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="si-icon si-today"></i><span>Today</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="si-icon si-future_visitors"></i><span>Future visits</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="si-icon si-staff"></i><span>Guests</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
 
       <div class="content">
         <div class="inner-header">
-          <h1 style="color: #0092c2; padding-top: 6px;" >
-            <i class="si-icon icon-calendar"></i>Past visits
+          <h1 style="color: #0092c2; padding-top: 6px">
+            <i class="si-icon si-past_visitors"></i>
+            Past Visits
           </h1>
 
           <div class="content-btn-container">
-           
             <button class="btn" style="cursor: pointer">
-              <i class="si-icon icon-level-down"></i> guests
+              <i class="si-icon si-import_tenant"></i> <span>Import Guest</span>
             </button>
             <button class="btn" style="cursor: pointer">
-              <i class="si-icon icon-group"></i>Bulk invite
+              <i class="si-icon si-bulk-invitee"></i><span>Bulk invite</span>
             </button>
             <button class="btn" style="cursor: pointer">
-              <i class="si-icon icon-group"></i>Group invite
+              <i class="si-icon si-group-invitee"></i><span>Group invite</span>
             </button>
             <button class="btn" style="cursor: pointer">
-              <i class="si-icon icon-adult"></i>New invite
+              <i class="si-icon si-new_user"></i><span>New invite</span>
             </button>
           </div>
         </div>
-        <div class="content-calander">
-          <img src="images/calender.PNG" />
+         <div class="content-calander">
+          <div class="date-selection">
+            <div class="box"><i class="si-icon si-left-open-big"></i>
+            </div>
+            <div class="time-box">Today</div>
+            
+              <div class="box2"><i class="si-icon si-right-open-big"></i>
+          </div>
+          </div>
+          
           <div class="calander-btn">
-         
-            <button class="cbtn">
-              <i class="si-icon icon-level-down"></i>0 checkd in
-            </button>
-            <button class="cbtn">
-              <i class="si-icon icon-level-up"></i>0 checkd out
-            </button>
+            <span class="cbtn">
+               <input type="checkbox"> 
+              <i class="si-icon si-in-round"></i>0 Checked in
+            </span>
+            <span class="cbtn">
+               <input type="checkbox"> 
+              <i class="si-icon si-out-round"></i>0 Checked Out
+            </span>
           </div>
         </div>
         <div class="drop-down">
@@ -347,15 +351,12 @@
                 05:22 pm
               </td>
             </tr>
-            
           </tbody>
         </table>
         <div class="a-para">
-          <P>Showing<b>1</b> to <b>4 of 4</b>entries</P>
+          <p>Showing<b>1</b> to <b>4 of 4</b>entries</p>
         </div>
-        <div class="main-footer">
-
-        </div>
+        <div class="main-footer"></div>
       </div>
     </div>
   </body>

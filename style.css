@@ -9,6 +9,14 @@ body,
 .page-content {
     height: 100%;
 }
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    color:  #0092C2;
+}
+ 
 .header{
     background-color: rgba(248, 248, 248, 1);
     display: flex;
@@ -91,14 +99,10 @@ body,
     .breadcrums-container li:first-child::before{
          display:none;
     }
-
-    
-
 .date-time{
     font-size: 14px;
     display: flex;
 }
-
 .navbar{
     top: 64px;
     position: absolute;
@@ -115,35 +119,17 @@ body,
     line-height: 38.5px;
     border: 1px solid black;
 }
-
 .navbar li:first-child {
     border-top: none;
 }
-
-/* .content {
-    width: 400px;
-} */
-
 .page-content {
     display: flex;
 }
-
- /* .content{
-    display: block;
-    
-    justify-content: right;
-    
-    align-items: right;
-    
-}
 .content-btn{
-
-    
     color: white;
     width: 700px;
     padding-top: 5px;
-    
-}  */
+}  
 .btn-bck{
     font-size: 11px;
     background-color: #0092C2;
@@ -154,16 +140,16 @@ body,
     border: none;
 }
  .btn{
-    position: relative;
+    padding-right: 16px;
+    padding-left: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 36px;
+    margin-right: 5px;
     background-color: #0092C2;
-   
     color: white;
     border-radius: 20px;
-    height: 31px;
-    width: 107px;
-
-    border: none;
-}
+    border: none;}
 
 .heading{
     font-size: 15px;
@@ -176,63 +162,152 @@ body,
 .sidebar {
     
     background-color: rgba(248, 248, 248, 1);
-    /* width: 230px; */
+    
     min-width: 280px;
     height: 108%;
-    padding-left: 64px;
+    padding-left: 46px;
 }
-
-.sidebar-item {
-    display: flex;
-    
-    margin-top: 20px;
-    margin-left: 3px;
-    
-}
-
 .sidebar-item2{
     font-size: 14px;
     display: flex;
     margin-top: 4px;
+    padding-left: 18px;
 } 
-
-
-.sidebar-item-name{
-    padding-top: 3px;
-    font-size: 14px;
-    padding-left: 13px;
+.sidebar-item li .active{
+    background-color:#8cd7ef63;
+    color:#0092C2 ;
 }
-.sidebar-item i{
+.sidebar-item li .si-icon{
+    margin-right: 14px;
     font-size: 20px; 
+    line-height: 1;
+    margin-top: 1px;
+    display: inline-block;
+    vertical-align: top;
 }
 .sidebar-item-title{
-    padding-top: 15px;
-    font-size: 14px;
-    padding-left: 39px;
-}
-.inner-header {
+    display: flex;
+    padding-top: 25px;
+    font-size: 12px;
+    padding-left: 19px;
     
-    font-size: 8px;
+}
+.sidebar-item-title h3{
+    font-size: 13px;
+    padding-top: 7px;
+    padding-left: 3px;
+}
+.sidebar-item-title i{
+    padding-top: 4px;
+    font-size: 26px;
+}
+.sidebar-item {
+    list-style: none;
+    margin-top: 28px;
+}
+.sidebar-item li a{
+    display: block;
+    padding: 11px 20px;
+    font-size: 14px;
+}
+.sidebar-item  span{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.inner-header {  
+    font-size: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 42px 16px 10px;
-    
+    padding: 0px 9px 10px 27px;
+}
+.inner-header h1{
+    margin-top: 40px;
+    color: #0092c2;
 }
 .content {
     width: 100%;
 }
+.content-btn-container i{
+    margin-right: 4px;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 1;
+}
 .content-calander{
-    padding-top: 5px;
+    justify-content: space-between;
     display: flex;
 }
 .calander-btn .cbtn{
-    margin-left: 5px;
- width:125px;
-height: 40px;
+   
+    display: inline-block;
+    padding: 5px 15px;
+    margin-left: 0px;
+    margin-top: 13px;
     color: #0092c2;
     background-color: white;
     border: 1px solid #E5E5E5;
     border-radius: 23px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.calander-btn{
+    padding-right: 13px;
+}
+.content-calander .box{
+    height: 48px;
+    width: 48px;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    border: 1px solid #F7F7F7;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+.content-calander .box1{
+    height: 48px;
+    width: 48px;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    border: 1px solid #F7F7F7;
+    margin-left: 28px;
+    margin-top: 5px; 
+    
+}
+.content-calander i{
+    display: block;
+    padding-left: 12px;
+    padding-top: 15px;
+}
+.content-calander .time-box{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 170px;
+    height: 48px;
+    background-color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 4px;
+}
+ .date-selection{
+    display: flex;
+    margin: 2px;
+
+}
+
+.cbtn i{
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 8px 3px 0;
+    padding: 0px;
+    vertical-align: middle;
+}
+.cbtn input[type="checkbox"]{
+    display: inline-block;
+    margin-top: 0px;
+    height: 17px;
+    width: 22px;
+}
+.content-btn-container span{
+    vertical-align: middle;
 }
 .drop-down{
     padding-top: 12px;
