@@ -104,19 +104,16 @@
             </a>
           </li>
           <li>
-            <a href="">
-              <i class="si-icon si-today"></i><span>Today</span>
-            </a>
+            <a href=""> <i class="si-icon si-today"></i><span>Today</span> </a>
           </li>
           <li>
             <a href="">
-              <i class="si-icon si-future_visitors"></i><span>Future visits</span>
+              <i class="si-icon si-future_visitors"></i
+              ><span>Future visits</span>
             </a>
           </li>
           <li>
-            <a href="">
-              <i class="si-icon si-staff"></i><span>Guests</span>
-            </a>
+            <a href=""> <i class="si-icon si-staff"></i><span>Guests</span> </a>
           </li>
         </ul>
       </nav>
@@ -143,24 +140,25 @@
             </button>
           </div>
         </div>
-         <div class="content-calander">
+        <div class="content-calander">
           <div class="date-selection">
-            <div class="box"><i class="si-icon si-left-open-big"></i>
+            <div class="box"><i class="si-icon si-left-open-big"></i></div>
+            <div class="time-box">
+              <p>Today</p>
+              <div><h>Wed,11 May, 2022</h></div>
             </div>
-            <div class="time-box">Today</div>
-            
-              <div class="box2"><i class="si-icon si-right-open-big"></i>
+
+            <div class="box1"><i class="si-icon si-right-open-big"></i></div>
           </div>
-          </div>
-          
+
           <div class="calander-btn">
             <span class="cbtn">
-               <input type="checkbox"> 
-              <i class="si-icon si-in-round"></i>0 Checked in
+              <input type="checkbox" />
+              <i class="si-icon si-in-round"></i><span>0 Checked in</span>
             </span>
             <span class="cbtn">
-               <input type="checkbox"> 
-              <i class="si-icon si-out-round"></i>0 Checked Out
+              <input type="checkbox" />
+              <i class="si-icon si-out-round"></i><span>0 Checked Out</span>
             </span>
           </div>
         </div>
@@ -173,76 +171,45 @@
           </select>
           <p class="list-para">Sorted by:</p>
           <p class="list-guest">Guest Alert</p>
+          <!-- <div class=""></div> -->
+
           <div class="list-btn">
-            <i
-              style="color: #e54843; font-size: 27px"
-              class="si-icon icon-file-pdf"
-            ></i>
-            <i
-              style="color: #227147; font-size: 27px"
-              class="si-icon icon-file-excel"
-            ></i>
-            <i
-              style="color: #0092c2; font-size: 27px; padding-right: 2px"
-              class="si-icon icon-cog-outline"
-            ></i>
+            <i style="color: #e54843" class="si-icon si-pdf"></i>
+            <i style="color: #227147" class="si-icon si-excel"></i>
+            <i style="color: #0092c2" class="si-icon si-settings-1"> </i>
           </div>
           <div class="hide-clms">
             <p>show / hide columns</p>
           </div>
+
+          <!-- <div class=""></div> -->
         </div>
 
         <table class="main-table">
           <thead class="table-header">
             <tr>
-              <th>Picture</th>
+              <th class="table-header-text">Picture</th>
 
-              <th style="color: #0092c2">Guest Alert</th>
-
-              <th>
-                <input type="text" class="table-header-input" />
-                <div class="table-header-title">
-                  <div class="table-header-text">Guest Name</div>
-                </div>
-              </th>
-
+              <th style="color: #0092c2" class="table-header-text">Guest Alert</th>
               <th class="table-header-text">Status</th>
-
               <th>
-                <input type="date" class="table-header-input date-input" />
+                 <input type="date" class="table-header-input date-input" />
                 <div class="table-header-title">
                   <div class="table-header-text">Check In</div>
-                </div>
-              </th>
-
-              <th>
-                <input type="text" class="table-header-input" />
-                <div class="table-header-title">
-                  <div class="table-header-text">Visitor Comany</div>
-                </div>
-              </th>
-
-              <th class="table-header-item">
-                <input type="text" class="table-header-input" />
-                <div class="table-header-title">
-                  <div class="table-header-text">Host Name</div>
                 </div>
               </th>
 
               <th class="table-header-text">Host Notifications</th>
 
               <th class="table-header-item">
-                <input
+                 <input
                   type="text"
                   class="table-header-input"
-                  placeholder="All"
-                />
+                  placeholder="All"/> 
                 <div class="table-header-title">
                   <div class="table-header-text">Tennt Company</div>
                 </div>
               </th>
-
-              <th class="table-header-text">Pass Ends</th>
             </tr>
           </thead>
 
@@ -257,7 +224,6 @@
                 <p>SMS</p>
               </td>
 
-              <td>LANDRO WATSO</td>
               <td>
                 <button class="t-btn">Expired Request</button>
               </td>
@@ -266,25 +232,25 @@
                 Fri,04 Feb,2022<br />
                 05:22 pm
               </td>
-              <td>Huawei</td>
-              <td>Alex Smith</td>
+
               <td class="t-text">
                 <p>Email</p>
               </td>
-              <td>Daraz.pk</td>
-              <td>
-                Fri,30 Dec,2022<br />
-                05:22 pm
+              
+              <td style="    font-size: 15px;
+              padding: 28px 83px 7px 8px;">
+                Daraz.pk
               </td>
+             
             </tr>
-            <tr>
+            <!-- <tr>
               <td>
                 <img class="t-logo" src="images/table logo.jpg" />
               </td>
               <td class="t-text">
                 <p>Emails</p>
               </td>
-              <td>ELIJAH COPPER</td>
+
               <td>
                 <button class="t-btn2">No Show</button>
               </td>
@@ -292,24 +258,20 @@
                 Fri,04 Feb,2022<br />
                 05:22 pm
               </td>
-              <td>Xiami</td>
-              <td>Elle fanning</td>
+
               <td></td>
 
               <td>Nilfisk</td>
-              <td>
-                Fri,30 Dec,2022<br />
-                05:22 pm
-              </td>
-            </tr>
-            <tr>
+             
+            </tr> -->
+            <!-- <tr>
               <td>
                 <img class="t-logo" src="images/table logo.jpg" />
               </td>
               <td class="t-text">
                 <p>Emails</p>
               </td>
-              <td>Jackie White</td>
+
               <td>
                 <button class="t-btn3">Group(1)</button>
               </td>
@@ -317,16 +279,12 @@
                 Fri,04 Feb,2022<br />
                 05:22 pm
               </td>
-              <td>IQOO</td>
-              <td>Jesse Randhawa</td>
+
               <td>Email</td>
               <td>The Home Depot</td>
-              <td>
-                Fri,30 Dec,2022<br />
-                05:22 pm
-              </td>
-            </tr>
-            <tr>
+              
+            </tr> -->
+            <!-- <tr>
               <td>
                 <img class="t-logo" src="images/table logo.jpg" />
               </td>
@@ -334,7 +292,7 @@
                 <p>Emails</p>
                 <p>SMS</p>
               </td>
-              <td>Oliver Carter</td>
+
               <td>
                 <button class="t-btn2">No Show</button>
               </td>
@@ -342,15 +300,11 @@
                 Fri,04 Feb,2022<br />
                 05:22 pm
               </td>
-              <td>Lenovo</td>
-              <td>Jesse Ryder</td>
+
               <td></td>
               <td>Vivo</td>
-              <td>
-                Fri,30 Dec,2022<br />
-                05:22 pm
-              </td>
-            </tr>
+            
+            </tr> -->
           </tbody>
         </table>
         <div class="a-para">

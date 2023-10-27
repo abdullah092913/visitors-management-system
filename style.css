@@ -20,6 +20,7 @@ a:hover{
 .header{
     background-color: rgba(248, 248, 248, 1);
     display: flex;
+    padding-top: 15px;
     justify-content: space-between;
     min-height: 63px;
     align-items: center;
@@ -104,7 +105,7 @@ a:hover{
     display: flex;
 }
 .navbar{
-    top: 64px;
+    top: 75px;
     position: absolute;
     display: block;
     width: 2.5rem;
@@ -120,7 +121,7 @@ a:hover{
     border: 1px solid black;
 }
 .navbar li:first-child {
-    border-top: none;
+        border-top: none;
 }
 .page-content {
     display: flex;
@@ -149,8 +150,8 @@ a:hover{
     background-color: #0092C2;
     color: white;
     border-radius: 20px;
-    border: none;}
-
+    border: none;
+}
 .heading{
     font-size: 15px;
     left: 69px;
@@ -158,11 +159,8 @@ a:hover{
     position: absolute;
     color: #0092C2;
 }
-
 .sidebar {
-    
     background-color: rgba(248, 248, 248, 1);
-    
     min-width: 280px;
     height: 108%;
     padding-left: 46px;
@@ -170,7 +168,7 @@ a:hover{
 .sidebar-item2{
     font-size: 14px;
     display: flex;
-    margin-top: 4px;
+    margin-top: 7px;
     padding-left: 18px;
 } 
 .sidebar-item li .active{
@@ -190,7 +188,7 @@ a:hover{
     padding-top: 25px;
     font-size: 12px;
     padding-left: 19px;
-    
+   
 }
 .sidebar-item-title h3{
     font-size: 13px;
@@ -239,20 +237,21 @@ a:hover{
     display: flex;
 }
 .calander-btn .cbtn{
-   
-    display: inline-block;
-    padding: 5px 15px;
-    margin-left: 0px;
-    margin-top: 13px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 8px 16px 10px;
+    margin-left: 9px;
+    margin-top: 10px;
     color: #0092c2;
     background-color: white;
     border: 1px solid #E5E5E5;
     border-radius: 23px;
     font-size: 14px;
-    vertical-align: middle;
 }
 .calander-btn{
     padding-right: 13px;
+    display: flex;
 }
 .content-calander .box{
     height: 48px;
@@ -269,9 +268,18 @@ a:hover{
     background-color: #F7F7F7;
     border-radius: 4px;
     border: 1px solid #F7F7F7;
-    margin-left: 28px;
+    margin-left: 5px;
     margin-top: 5px; 
-    
+}
+.time-box p{
+    padding-top: 6px;
+    font-size: 13px;
+    text-align: center;
+}
+.time-box h{
+    padding-left: 30px;
+    font-size: 13px;
+    text-align: center;
 }
 .content-calander i{
     display: block;
@@ -290,19 +298,13 @@ a:hover{
  .date-selection{
     display: flex;
     margin: 2px;
-
 }
-
-.cbtn i{
-    display: inline-block;
+.cbtn i{   
     font-size: 18px;
-    margin: 4px 8px 3px 0;
-    padding: 0px;
-    vertical-align: middle;
+    margin: 0px 8px 0px 0;
+    padding: 0px;   
 }
 .cbtn input[type="checkbox"]{
-    display: inline-block;
-    margin-top: 0px;
     height: 17px;
     width: 22px;
 }
@@ -310,56 +312,65 @@ a:hover{
     vertical-align: middle;
 }
 .drop-down{
-    padding-top: 12px;
-    padding-left: 5px;
+    padding-top: 17px;
+    padding-left: 29px;
+    padding-right: 13px;
     display: flex;
 }
-
-
 .drop-down .list{
-    padding-left: 2px;
     font-size: 13px;
-    width: 72px;
+    width: 81px;
 }
 .drop-down .list-para{
-    font-size: 10px;
-    padding-left: 8px;
+    padding-top: 7px;
+    font-size: 14px;
+    padding-left: 11px;
 }
 .drop-down .list-guest{
-    font-size: 10px;
-    padding-left: 3px;
+    padding-top: 8px;
+    font-size: 14px;
+    padding-left: 1px;
     color: #0092C2;
 }
-.drop-down .list-btn{
-    padding-left: 634px;
+ .list-btn{
+    display: flex;
     font-size: 20px;
+    margin-left: auto;
+}
+.list-btn .si-icon{
+    margin-right: 7px;
+    font-size: 30px
+}
+.hide-clms{
+    margin-top: 1px;
 }
 .hide-clms p{
-    border: 1px solid ;
+    border: 1px solid;
     border-color: #0092c2;
     border-radius: 22px;
-    padding: 5px;
-    margin-left: 7px;
+    padding: 7px 15px;
+    font-size: 13px;
 }
 .main-table{
-    margin: 15px 5px;
-    /* width: 98%; */
-    border-collapse: collapse; 
+    margin: 23px 28px;
+    border-collapse: collapse;
     font-size: 12px;
     overflow: auto;
 }
 .main-table thead tr th{
+    padding: 6px 55px;
     vertical-align: bottom;
-    /* text-align: left; */
 }
-th, td {
-    /* width: 100px; */
+.table-header-text{
+    padding: 2px;
+}
+ th {
+    width: 150px;
     text-align: left;
-    /* min-width: 110px; */
-    max-width: 200px;
 }
 .table-header{
-    background-color:rgba(248, 248, 248, 1);
+    padding-bottom: 8px;
+    background-color: rgba(248, 248, 248, 1);
     width: 100%;
 }
 .table-header-input{
@@ -369,19 +380,9 @@ th, td {
     padding: 4px;
     width: 61%;
 }
-/* .table-header-name{
-    vertical-align: bottom;
-    padding-top: 29px;
-    padding-left: 5px;
-} */
 
 .table-header-title {
-    
-    vertical-align: bottom;
-    
-    /*
-    display: flex;
-    align-items: end; */
+    vertical-align: bottom;   
 }
 .t-logo {
     margin-left: 16px;
@@ -391,18 +392,13 @@ th, td {
 .b-heading{
     width: 28px;
 }
-.t-text{
-    width: 10px;
-}
 .t-btn{
     background-color: #FFF6AB;
     color: black;
     border-radius: 20px;
     height: 36px;
     width: 130px;
-    /* left: 650px; */
     border: none;
-    /* border-color: #0092C2; */
 }
 .t-btn2{
     background-color: #E6E6E6;
@@ -410,9 +406,9 @@ th, td {
     border-radius: 20px;
     height: 36px;
     width: 130px;
-    /* left: 650px; */
+    
     border: none;
-    /* border-color: #0092C2; */
+    
 }
 .t-btn3{
     background-color: #99CC66;
@@ -420,10 +416,7 @@ th, td {
     border-radius: 20px;
     height: 36px;
     width: 130px;
-    /* left: 650px; */
     border: none;
-    /* border-color: #0092C2; */
-    
 }
 .main-table tr{
     padding: 10px;
@@ -436,6 +429,5 @@ th, td {
 .main-footer{
     background-color: green;
     width: 100%;
-    /* height: ; */
 }
 
